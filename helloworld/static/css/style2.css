@@ -1,0 +1,42 @@
+#header {
+  margin-bottom: 2px;
+}
+
+#user_email {
+  margin: 5px 5px;
+}
+
+#auth-submit {
+  margin-left: 4px;
+  padding: 6px 32px;
+  font-family: "Ubuntu", serif;
+  background-color: #117a65;
+  border-color: white;
+  font-size: 16px;
+  font-weight: inherit;
+}
+
+#auth-signup {
+  margin-left: 4px;
+  padding: 6px 32px;
+  font-family: "Ubuntu", serif;
+  background-color: #117a65;
+  border-color: white;
+  font-size: 16px;
+  font-weight: inherit;
+}
+.navbar-brand {
+  font-size: 16px;
+}
+
+div.c-wrapper {
+  width: 60%;
+  margin: auto;
+  border: 1px solid;
+}
+
+.carousel-inner img {
+  width: 100%;
+  margin: auto;
+  opacity: 0.8;
+}

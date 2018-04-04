@@ -1,0 +1,27 @@
+
+body {
+    background-image: url("Store Background Dark.png"); 
+    opacity:.5;
+ 
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.navbar-brand .container {
+    color: green;
+    font-variant: inherit;
+    opacity: 0.9;
+
+}
+
+#banner {
+    width: 500px;
+    height: 200px;
+    position: relative;
+    margin: 200px 500px;
+    border: 2px solid white;
+}

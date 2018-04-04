@@ -1,0 +1,74 @@
+ {% extends 'base.html'%} {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form class="form-inline" style="float:right;">
+        <div class="form-group">
+            <input type="email" name="user_email" id="user_email" class="form-control" placeholder="email" style="margin: 5px;width: 300px;">
+            <input type="password" class="form-control" name="user_password" id="user_password" , placeholder="password" style="margin: 5px;width: 300px;">
+            <input type="button" class="btn btn-primary" id="auth-submit" value="Submit">
+            <input type="button" class="btn btn-primary" id="auth-signup" value="Register">
+        </div>
+    </form>
+
+
+
+
+    </nav>
+    </header>
+
+    <div class="c-wrapper">
+        <div id="carousel_now" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselId" data-slide-to="1"></li>
+                <li data-target="#carouselId" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img src="{% static " images/Store Background Dark.png " %}" alt="dark store">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>7-Eleven Store</h5>
+                        <p>Self-Checkout Store</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+
+                    <img src="7snap.jpg" alt="7Stat">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>7-Eleven Stat</h5>
+                        <p>US Presence</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="7now.PNG" alt="7Now">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>7-Now</h5>
+                        <p>7-Eleven Delivery and Collect</p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                </a>
+                <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                </a>
+            </div>
+        </div>
+
+
+
+</body>
+
+</html>
